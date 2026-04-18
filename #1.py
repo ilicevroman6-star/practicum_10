@@ -1,4 +1,7 @@
 def letters(sentence: str) -> None:
+    '''
+    sentence is a string to search for vowels and consonants in it
+    '''
     vowels = 'аеёиоуыэюя'
     consonants = 'бвгджзйклмнпрстфхцчшщ'
     cnt_vowels = 0
