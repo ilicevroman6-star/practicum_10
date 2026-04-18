@@ -1,4 +1,7 @@
 def fibonacci(number: int) -> list:
+    '''
+    outputs all Fibonacci numbers from 1 to number
+    '''
     fibonacci_numbers = []
 
     for nmb in range(1, number+1):
