@@ -1,4 +1,7 @@
 def final_price(cost: int, discount_card=False, holiday=False) -> str:
+    '''
+    calculates the final discount
+    '''
     discount = 1.0
 
     if discount_card:
