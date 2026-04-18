@@ -1,4 +1,8 @@
 def card_cost(cost: int) -> int | str:
+    '''
+    calculates the cost
+    '''
+    
     if cost == 5 or cost == 10:
         return cost
     elif cost == 25:
