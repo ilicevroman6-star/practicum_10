@@ -1,4 +1,7 @@
 def correct_message(message: str) -> str:
+    '''
+    message is the original text
+    '''
     return message[:160]
 
 
