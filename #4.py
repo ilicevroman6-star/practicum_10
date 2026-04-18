@@ -1,4 +1,8 @@
 def make_payment(payment: int) -> None:
+    '''
+    verifies the validity of the payment
+    '''
+    
     if 20 <= payment <= 1000:
         print('Успех')
     else:
